@@ -36,16 +36,31 @@
 </head>
 
 <body>
-    <header class="w-full h-20 flex justify-center">
+    <header class="w-full h-20 flex justify-center absolute bg-white">
         <nav class="w-4/5  h-full font-bebas flex justify-between items-center">
             <h1 class="text-3xl text-offBlack ">Jaka Naka Production</h1>
-            <ul class="flex text-xl gap-x-5">
+            <ul class="text-xl gap-x-5 hidden sm:flex">
                 <li>About Us </li>
                 <li>Our Movies</li>
                 <li>Services</li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="h-screen bg-[url('/images/banner.jpg')] bg-cover flex items-center">
+            <div class="w-2/4 mx-10 uppercase text-white font-bebas">
+                <p>Movie production studio</p>
+                <h1 class="text-7xl">Films MAde to</h1>
+                <h1 class="text-7xl text-yellow">Perfection</h1>
+                <p class="normal-case font-mont my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                    tellus,
+                    luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <button class="border-2 px-4 py-2 hover:bg-yellow hover:text-black">Discover
+                    More</button>
+            </div>
+        </section>
+    </main>
 
 </body>
 
